@@ -1,27 +1,19 @@
 {
-  "name": "Relay_template",
-  "version": "1.0.0",
-  "description": "A very simple example of React Relay using Browserify",
-  "main": "server.js",
-  "repository": "",
-  "keywords": [
-    "react",
-    "reactjs",
-    "relay",
-    "browserify",
-    "graphql"
-  ],
-  "author": "Maycon Mellos <maycon.mellos@gmail.com>",
-  "license": "MIT",
+  "name": "relay-skeleton",
+  "version": "0.0.1",
+  "description": "A minimal React, Relay, GraphQL skeleton.",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "start": "gulp"
+  },
   "dependencies": {
-    "express": "^4.13.3",
-    "express-graphql": "^0.4.4",
-    "graphql": "^0.4.13",
-    "graphql-relay": "^0.3.5",
-    "graphiql": "~0.4.5",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
-    "react-relay": "^0.5.0"
+    "express-graphql": "^0.3.0",
+    "graphql": "^0.4.2",
+    "graphql-relay": "^0.3.0",
+    "react": "^0.14.0-beta3",
+    "react-dom": "^0.14.0-beta3",
+    "react-relay": "^0.1.1",
+    "react-router": "^1.0.0-beta3"
   },
   "devDependencies": {
     "babel": "^5.8.21",
@@ -41,7 +33,20 @@
     "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1"
   },
-  "scripts": {
-    "start": "gulp"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fortruce/relay-skeleton.git"
+  },
+  "keywords": [
+    "react",
+    "relay",
+    "skeleton",
+    "webpack"
+  ],
+  "author": "fortruce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortruce/relay-skeleton/issues"
+  },
+  "homepage": "https://github.com/fortruce/relay-skeleton"
 }
