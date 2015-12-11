@@ -10,7 +10,7 @@ var app = express()
 app.use('/graphql', graphqlHttp({
   schema: schema,
   pretty: true,
-  graphiql: true
+  graphiql: true,
 }))
 
 // The rest of the routes are just for serving static files

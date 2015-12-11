@@ -11,5 +11,5 @@ export default class extends Relay.Route {
       }
     `
   };
-  static routeName = 'ContactRoute';
+  static routeName = 'ExampleRoute';
 }
